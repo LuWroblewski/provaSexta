@@ -1,0 +1,158 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f2f1f2;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu {
+  position: absolute;
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  max-width: 1900px;
+  height: auto;
+}
+.menu img {
+  position: relative;
+  margin: 1% 0% 1% 3%;
+  max-width: 212px;
+  max-height: 139px;
+  height: 100%;
+  width: 100%;
+}
+.menu ul {
+  display: flex;
+  position: relative;
+  list-style: none;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  text-align: end;
+  margin-left: auto;
+  margin-right: 2%;
+}
+.menu ul li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.menu ul li:hover {
+  color: rgb(176, 176, 231);
+}
+
+.tableCursos {
+  position: absolute;
+  top: 220px;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(133, 132, 132, 0.7);
+}
+.tableCursos thead th {
+  padding: 20px 20px 10px 20px;
+}
+.tableCursos tbody tr:hover {
+  background-color: rgba(214, 203, 203, 0.15);
+}
+.tableCursos tbody td {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(155, 154, 154, 0.15);
+}
+.tableCursos caption {
+  font-size: 45px;
+  color: rgb(9, 9, 121);
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.news {
+  position: absolute;
+  top: 580px;
+  background-color: #ffffff;
+  box-shadow: 5px rgba(133, 132, 132, 0.1);
+  width: 100%;
+}
+.news h2 {
+  position: relative;
+  left: 40px;
+  width: 100px;
+}
+.news p {
+  position: relative;
+  left: 40px;
+  width: 430px;
+}
+.news p:hover {
+  color: rgb(176, 176, 231);
+  padding-left: 20px;
+  transition: 0.5s;
+}
+.news p i {
+  padding-right: 10px;
+}
+
+.menuFooter {
+  position: absolute;
+  top: 800px;
+  background-color: #610e7c;
+  color: white;
+  width: 100%;
+  max-width: 1900px;
+  height: auto;
+  display: flex;
+}
+.menuFooter .ulMenu {
+  position: relative;
+  padding: 20px 60px;
+}
+.menuFooter .ulMenu li {
+  position: relative;
+  padding-top: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+.menuFooter .ulMenu li:hover {
+  color: rgb(176, 176, 231);
+}
+.menuFooter .ulInformações {
+  position: relative;
+  padding: 20px 15px 0 0;
+  padding-left: 25vw;
+  width: 387px;
+}
+.menuFooter .ulInformações li {
+  position: relative;
+  padding-top: 25px;
+  list-style: none;
+}
+.menuFooter .ulInformações li:hover {
+  color: rgb(176, 176, 231);
+}
+.menuFooter .redesSociais {
+  position: relative;
+  top: 100px;
+  width: 200px;
+  height: 50px;
+}
+.menuFooter .redesSociais ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  right: 2%;
+}
+.menuFooter .redesSociais li {
+  cursor: pointer;
+  padding-top: 25px;
+  padding-right: 2vw;
+  left: 20%;
+  list-style: none;
+  flex-basis: calc(25% - 10px);
+}
+.menuFooter .redesSociais li:hover {
+  color: rgb(176, 176, 231);
+}
+
+/*# sourceMappingURL=style.css.map */
