@@ -155,21 +155,4 @@ body {
   color: rgb(176, 176, 231);
 }
 
-@media (max-width: 320px) {
-  .menu .ulMenu {
-    display: none;
-  }
-  .menu.show {
-    display: block;
-  }
-  .menu.show ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .menu.show li {
-    padding: 10px;
-  }
-}
-
 /*# sourceMappingURL=style.css.map */
