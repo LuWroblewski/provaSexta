@@ -22,7 +22,7 @@ body {
   height: 100%;
   width: 100%;
 }
-.menu ul {
+.menu .ulMenu {
   display: flex;
   position: relative;
   list-style: none;
@@ -33,11 +33,11 @@ body {
   margin-left: auto;
   margin-right: 2%;
 }
-.menu ul li {
+.menu .ulMenu li {
   margin-left: 20px;
   cursor: pointer;
 }
-.menu ul li:hover {
+.menu .ulMenu li:hover {
   color: rgb(176, 176, 231);
 }
 
@@ -153,6 +153,23 @@ body {
 }
 .menuFooter .redesSociais li:hover {
   color: rgb(176, 176, 231);
+}
+
+@media (max-width: 320px) {
+  .menu .ulMenu {
+    display: none;
+  }
+  .menu.show {
+    display: block;
+  }
+  .menu.show ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu.show li {
+    padding: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
